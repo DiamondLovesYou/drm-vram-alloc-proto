@@ -1,0 +1,15 @@
+[package]
+name = "drm-vram-alloc"
+version = "0.1.0"
+authors = ["Richard Diamond <wichard@vitalitystudios.com>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.53.2"
+
+[[bin]]
+name = "drm-vram-alloc-prototype"
+path = "main.rs"
